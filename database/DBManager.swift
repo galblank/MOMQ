@@ -29,7 +29,7 @@ open class DBManager: NSObject {
     var currentIndexMatrix:NSMutableDictionary = NSMutableDictionary()
     var databaseQueue:DispatchQueue? = nil
     var bundleDatabaseVersion = 0
-    var lastInsertedRowID:CLongLong = 0
+    open var lastInsertedRowID:CLongLong = 0
     
     var currentMatrixIndex = 0
     
