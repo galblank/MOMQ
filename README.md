@@ -2,11 +2,8 @@
 swift based event bus framework to use inside internal and external communications systems<br />
 Contains the following modules:<br />
 1. DBManager- SQLite manager - thread safe <br />
-2. Networking - everything you need for networking <br />
-3. Observables - Reactive objects <br />
-4. Perhiperals - Connection to third party hardware for payment processing such as Ingenico swipers, Star printers, barcode scanners and more...<br />
-5. RegularExpresion library ( curtesy of ReExkitLite )<br />
-6. Extension helpers<br /><br />
+2. Observables - Reactive objects <br />
+
 <b> The heart of the framework is MESSAGEDISPATCHER </b><br />
 
 <b>PARADIGM</b><br />
