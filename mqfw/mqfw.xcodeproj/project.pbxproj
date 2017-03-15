@@ -14,6 +14,7 @@
 		C39FFFEF1E7718000005944F /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39FFFE21E7718000005944F /* DBManager.swift */; };
 		C39FFFF31E7718000005944F /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39FFFE71E7718000005944F /* Observable.swift */; };
 		C39FFFF51E7718000005944F /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = C39FFFEB1E7718000005944F /* sqlite3.h */; };
+		DFAC84411E79E52E0080317E /* module.modulemap in Resources */ = {isa = PBXBuildFile; fileRef = C39FFFEA1E7718000005944F /* module.modulemap */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -174,6 +175,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFAC84411E79E52E0080317E /* module.modulemap in Resources */,
 				C39FFFEE1E7718000005944F /* eventbussdk.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
