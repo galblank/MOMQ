@@ -1,4 +1,4 @@
-# eventbus
+# MOMQ ( Mobile Message Queue Framework )
 swift based event bus framework to use inside internal and external communications systems<br />
 Contains the following modules:<br />
 1. DBManager- SQLite manager - thread safe <br />
