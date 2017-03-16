@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "0810"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C39FFFBD1E77177C0005944F"
-               BuildableName = "mqfw.framework"
-               BlueprintName = "mqfw"
+               BuildableName = "MOMQ.framework"
+               BlueprintName = "MOMQ"
                ReferencedContainer = "container:mqfw.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C39FFFBD1E77177C0005944F"
-            BuildableName = "mqfw.framework"
-            BlueprintName = "mqfw"
+            BuildableName = "MOMQ.framework"
+            BlueprintName = "MOMQ"
             ReferencedContainer = "container:mqfw.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,8 +64,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C39FFFBD1E77177C0005944F"
-            BuildableName = "mqfw.framework"
-            BlueprintName = "mqfw"
+            BuildableName = "MOMQ.framework"
+            BlueprintName = "MOMQ"
             ReferencedContainer = "container:mqfw.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

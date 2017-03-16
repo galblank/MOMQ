@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C39FFFBE1E77177C0005944F /* mqfw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = mqfw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39FFFBE1E77177C0005944F /* MOMQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MOMQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39FFFC11E77177C0005944F /* mqfw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mqfw.h; sourceTree = "<group>"; };
 		C39FFFC21E77177C0005944F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C39FFFDE1E7718000005944F /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		C39FFFBF1E77177C0005944F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C39FFFBE1E77177C0005944F /* mqfw.framework */,
+				C39FFFBE1E77177C0005944F /* MOMQ.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,9 +120,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C39FFFBD1E77177C0005944F /* mqfw */ = {
+		C39FFFBD1E77177C0005944F /* MOMQ */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C39FFFC61E77177C0005944F /* Build configuration list for PBXNativeTarget "mqfw" */;
+			buildConfigurationList = C39FFFC61E77177C0005944F /* Build configuration list for PBXNativeTarget "MOMQ" */;
 			buildPhases = (
 				C39FFFB91E77177C0005944F /* Sources */,
 				C39FFFBA1E77177C0005944F /* Frameworks */,
@@ -133,9 +133,9 @@
 			);
 			dependencies = (
 			);
-			name = mqfw;
+			name = MOMQ;
 			productName = mqfw;
-			productReference = C39FFFBE1E77177C0005944F /* mqfw.framework */;
+			productReference = C39FFFBE1E77177C0005944F /* MOMQ.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -165,7 +165,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C39FFFBD1E77177C0005944F /* mqfw */,
+				C39FFFBD1E77177C0005944F /* MOMQ */,
 			);
 		};
 /* End PBXProject section */
@@ -348,7 +348,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C39FFFC61E77177C0005944F /* Build configuration list for PBXNativeTarget "mqfw" */ = {
+		C39FFFC61E77177C0005944F /* Build configuration list for PBXNativeTarget "MOMQ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C39FFFC71E77177C0005944F /* Debug */,
