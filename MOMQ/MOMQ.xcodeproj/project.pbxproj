@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C39FFFC31E77177C0005944F /* mqfw.h in Headers */ = {isa = PBXBuildFile; fileRef = C39FFFC11E77177C0005944F /* mqfw.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C39FFFEC1E7718000005944F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39FFFDE1E7718000005944F /* Message.swift */; };
-		C39FFFED1E7718000005944F /* MessageDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39FFFDF1E7718000005944F /* MessageDispatcher.swift */; };
-		C39FFFEE1E7718000005944F /* eventbussdk.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C39FFFE01E7718000005944F /* eventbussdk.podspec */; };
-		C39FFFEF1E7718000005944F /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39FFFE21E7718000005944F /* DBManager.swift */; };
-		C39FFFF31E7718000005944F /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39FFFE71E7718000005944F /* Observable.swift */; };
-		C39FFFF51E7718000005944F /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = C39FFFEB1E7718000005944F /* sqlite3.h */; };
-		DFAC84411E79E52E0080317E /* module.modulemap in Resources */ = {isa = PBXBuildFile; fileRef = C39FFFEA1E7718000005944F /* module.modulemap */; };
+		DFFD4DBB1E7B17970028F87B /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFD4DBA1E7B17970028F87B /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFFD4DBE1E7B17A40028F87B /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD4DBD1E7B17A40028F87B /* DBManager.swift */; };
+		DFFD4DC21E7B17B40028F87B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD4DC01E7B17B40028F87B /* Message.swift */; };
+		DFFD4DC31E7B17B40028F87B /* MessageDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD4DC11E7B17B40028F87B /* MessageDispatcher.swift */; };
+		DFFD4DC61E7B17C30028F87B /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD4DC51E7B17C30028F87B /* Observable.swift */; };
+		DFFD4DC71E7B182D0028F87B /* module.modulemap in Resources */ = {isa = PBXBuildFile; fileRef = DFFD4DB91E7B17970028F87B /* module.modulemap */; };
+		DFFD4DC91E7B18380028F87B /* eventbussdk.podspec in Resources */ = {isa = PBXBuildFile; fileRef = DFFD4DC81E7B18380028F87B /* eventbussdk.podspec */; };
+		DFFD4DCD1E7B184D0028F87B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFD4DCC1E7B184D0028F87B /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C39FFFBE1E77177C0005944F /* MOMQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MOMQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C39FFFC11E77177C0005944F /* mqfw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mqfw.h; sourceTree = "<group>"; };
-		C39FFFC21E77177C0005944F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C39FFFDE1E7718000005944F /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
-		C39FFFDF1E7718000005944F /* MessageDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageDispatcher.swift; sourceTree = "<group>"; };
-		C39FFFE01E7718000005944F /* eventbussdk.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = eventbussdk.podspec; sourceTree = "<group>"; };
-		C39FFFE21E7718000005944F /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
-		C39FFFE71E7718000005944F /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
-		C39FFFEA1E7718000005944F /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		C39FFFEB1E7718000005944F /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		DFFD4DB91E7B17970028F87B /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		DFFD4DBA1E7B17970028F87B /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		DFFD4DBD1E7B17A40028F87B /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		DFFD4DC01E7B17B40028F87B /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		DFFD4DC11E7B17B40028F87B /* MessageDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageDispatcher.swift; sourceTree = "<group>"; };
+		DFFD4DC51E7B17C30028F87B /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		DFFD4DC81E7B18380028F87B /* eventbussdk.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = eventbussdk.podspec; path = MOMQ/eventbussdk.podspec; sourceTree = SOURCE_ROOT; };
+		DFFD4DCA1E7B18470028F87B /* MOMQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOMQ.h; path = MOMQ/MOMQ.h; sourceTree = SOURCE_ROOT; };
+		DFFD4DCC1E7B184D0028F87B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MOMQ/Info.plist; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +44,7 @@
 		C39FFFB41E77177C0005944F = {
 			isa = PBXGroup;
 			children = (
-				C39FFFC01E77177C0005944F /* mqfw */,
+				C39FFFC01E77177C0005944F /* MOMQ */,
 				C39FFFBF1E77177C0005944F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,53 +57,58 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C39FFFC01E77177C0005944F /* mqfw */ = {
+		C39FFFC01E77177C0005944F /* MOMQ */ = {
 			isa = PBXGroup;
 			children = (
-				C39FFFE91E7718000005944F /* sqlite3 */,
-				C39FFFE11E7718000005944F /* database */,
-				C39FFFDD1E7718000005944F /* Dispatcher */,
-				C39FFFE01E7718000005944F /* eventbussdk.podspec */,
-				C39FFFE61E7718000005944F /* Observables */,
-				C39FFFC11E77177C0005944F /* mqfw.h */,
-				C39FFFC21E77177C0005944F /* Info.plist */,
+				DFFD4DB81E7B17970028F87B /* sqlite3 */,
+				DFFD4DBC1E7B17A40028F87B /* database */,
+				DFFD4DBF1E7B17B40028F87B /* Dispatcher */,
+				DFFD4DC81E7B18380028F87B /* eventbussdk.podspec */,
+				DFFD4DC41E7B17C30028F87B /* Observables */,
+				DFFD4DCA1E7B18470028F87B /* MOMQ.h */,
+				DFFD4DCC1E7B184D0028F87B /* Info.plist */,
 			);
+			name = MOMQ;
 			path = mqfw;
 			sourceTree = "<group>";
 		};
-		C39FFFDD1E7718000005944F /* Dispatcher */ = {
+		DFFD4DB81E7B17970028F87B /* sqlite3 */ = {
 			isa = PBXGroup;
 			children = (
-				C39FFFDE1E7718000005944F /* Message.swift */,
-				C39FFFDF1E7718000005944F /* MessageDispatcher.swift */,
+				DFFD4DB91E7B17970028F87B /* module.modulemap */,
+				DFFD4DBA1E7B17970028F87B /* sqlite3.h */,
 			);
-			path = Dispatcher;
-			sourceTree = "<group>";
+			name = sqlite3;
+			path = MOMQ/sqlite3;
+			sourceTree = SOURCE_ROOT;
 		};
-		C39FFFE11E7718000005944F /* database */ = {
+		DFFD4DBC1E7B17A40028F87B /* database */ = {
 			isa = PBXGroup;
 			children = (
-				C39FFFE21E7718000005944F /* DBManager.swift */,
+				DFFD4DBD1E7B17A40028F87B /* DBManager.swift */,
 			);
-			path = database;
-			sourceTree = "<group>";
+			name = database;
+			path = MOMQ/database;
+			sourceTree = SOURCE_ROOT;
 		};
-		C39FFFE61E7718000005944F /* Observables */ = {
+		DFFD4DBF1E7B17B40028F87B /* Dispatcher */ = {
 			isa = PBXGroup;
 			children = (
-				C39FFFE71E7718000005944F /* Observable.swift */,
+				DFFD4DC01E7B17B40028F87B /* Message.swift */,
+				DFFD4DC11E7B17B40028F87B /* MessageDispatcher.swift */,
 			);
-			path = Observables;
-			sourceTree = "<group>";
+			name = Dispatcher;
+			path = MOMQ/Dispatcher;
+			sourceTree = SOURCE_ROOT;
 		};
-		C39FFFE91E7718000005944F /* sqlite3 */ = {
+		DFFD4DC41E7B17C30028F87B /* Observables */ = {
 			isa = PBXGroup;
 			children = (
-				C39FFFEA1E7718000005944F /* module.modulemap */,
-				C39FFFEB1E7718000005944F /* sqlite3.h */,
+				DFFD4DC51E7B17C30028F87B /* Observable.swift */,
 			);
-			path = sqlite3;
-			sourceTree = "<group>";
+			name = Observables;
+			path = MOMQ/Observables;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -112,8 +117,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C39FFFF51E7718000005944F /* sqlite3.h in Headers */,
-				C39FFFC31E77177C0005944F /* mqfw.h in Headers */,
+				DFFD4DBB1E7B17970028F87B /* sqlite3.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +157,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C39FFFB81E77177C0005944F /* Build configuration list for PBXProject "mqfw" */;
+			buildConfigurationList = C39FFFB81E77177C0005944F /* Build configuration list for PBXProject "MOMQ" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -175,8 +179,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFAC84411E79E52E0080317E /* module.modulemap in Resources */,
-				C39FFFEE1E7718000005944F /* eventbussdk.podspec in Resources */,
+				DFFD4DC71E7B182D0028F87B /* module.modulemap in Resources */,
+				DFFD4DC91E7B18380028F87B /* eventbussdk.podspec in Resources */,
+				DFFD4DCD1E7B184D0028F87B /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,10 +192,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C39FFFF31E7718000005944F /* Observable.swift in Sources */,
-				C39FFFED1E7718000005944F /* MessageDispatcher.swift in Sources */,
-				C39FFFEF1E7718000005944F /* DBManager.swift in Sources */,
-				C39FFFEC1E7718000005944F /* Message.swift in Sources */,
+				DFFD4DBE1E7B17A40028F87B /* DBManager.swift in Sources */,
+				DFFD4DC61E7B17C30028F87B /* Observable.swift in Sources */,
+				DFFD4DC31E7B17B40028F87B /* MessageDispatcher.swift in Sources */,
+				DFFD4DC21E7B17B40028F87B /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,13 +310,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = mqfw/Info.plist;
+				INFOPLIST_FILE = "$(PRODUCT_NAME)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.galblank.mqfw;
+				PRODUCT_BUNDLE_IDENTIFIER = com.galblank.MOMQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "${SRCROOT}/mqfw/sqlite3/**";
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/MOMQ/sqlite3/**";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -325,13 +330,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = mqfw/Info.plist;
+				INFOPLIST_FILE = "$(PRODUCT_NAME)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.galblank.mqfw;
+				PRODUCT_BUNDLE_IDENTIFIER = com.galblank.MOMQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "${SRCROOT}/mqfw/sqlite3/**";
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/MOMQ/sqlite3/**";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -339,7 +344,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C39FFFB81E77177C0005944F /* Build configuration list for PBXProject "mqfw" */ = {
+		C39FFFB81E77177C0005944F /* Build configuration list for PBXProject "MOMQ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C39FFFC41E77177C0005944F /* Debug */,

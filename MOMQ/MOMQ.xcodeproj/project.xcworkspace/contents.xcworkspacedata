@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:mqfw.xcodeproj">
+      location = "self:/Users/acruz004c/dev.iOS/source-code/eventbussdk/mqfw/MOMQ.xcodeproj">
    </FileRef>
 </Workspace>

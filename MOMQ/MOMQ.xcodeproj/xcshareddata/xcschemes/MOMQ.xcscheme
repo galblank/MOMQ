@@ -17,7 +17,7 @@
                BlueprintIdentifier = "C39FFFBD1E77177C0005944F"
                BuildableName = "MOMQ.framework"
                BlueprintName = "MOMQ"
-               ReferencedContainer = "container:mqfw.xcodeproj">
+               ReferencedContainer = "container:MOMQ.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,7 +48,7 @@
             BlueprintIdentifier = "C39FFFBD1E77177C0005944F"
             BuildableName = "MOMQ.framework"
             BlueprintName = "MOMQ"
-            ReferencedContainer = "container:mqfw.xcodeproj">
+            ReferencedContainer = "container:MOMQ.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,7 +66,7 @@
             BlueprintIdentifier = "C39FFFBD1E77177C0005944F"
             BuildableName = "MOMQ.framework"
             BlueprintName = "MOMQ"
-            ReferencedContainer = "container:mqfw.xcodeproj">
+            ReferencedContainer = "container:MOMQ.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

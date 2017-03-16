@@ -1,6 +1,6 @@
 //
-//  mqfw.h
-//  mqfw
+//  MOMQ.h
+//  MOMQ
 //
 //  Created by Blank, Gal (Contractor) on 3/13/17.
 //  Copyright © 2017 galblank. All rights reserved.
