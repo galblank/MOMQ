@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C39FFFBD1E77177C0005944F"
-               BuildableName = "mqfw.framework"
-               BlueprintName = "mqfw"
-               ReferencedContainer = "container:mqfw.xcodeproj">
+               BuildableName = "momq.framework"
+               BlueprintName = "momq"
+               ReferencedContainer = "container:momq.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,9 +46,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C39FFFBD1E77177C0005944F"
-            BuildableName = "mqfw.framework"
-            BlueprintName = "mqfw"
-            ReferencedContainer = "container:mqfw.xcodeproj">
+            BuildableName = "momq.framework"
+            BlueprintName = "momq"
+            ReferencedContainer = "container:momq.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -64,9 +64,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C39FFFBD1E77177C0005944F"
-            BuildableName = "mqfw.framework"
-            BlueprintName = "mqfw"
-            ReferencedContainer = "container:mqfw.xcodeproj">
+            BuildableName = "momq.framework"
+            BlueprintName = "momq"
+            ReferencedContainer = "container:momq.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

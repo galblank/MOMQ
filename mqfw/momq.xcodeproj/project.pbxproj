@@ -10,7 +10,7 @@
 		C39FFFC31E77177C0005944F /* mqfw.h in Headers */ = {isa = PBXBuildFile; fileRef = C39FFFC11E77177C0005944F /* mqfw.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C39FFFEC1E7718000005944F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39FFFDE1E7718000005944F /* Message.swift */; };
 		C39FFFED1E7718000005944F /* MessageDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39FFFDF1E7718000005944F /* MessageDispatcher.swift */; };
-		C39FFFEE1E7718000005944F /* eventbussdk.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C39FFFE01E7718000005944F /* eventbussdk.podspec */; };
+		C39FFFEE1E7718000005944F /* momq.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C39FFFE01E7718000005944F /* momq.podspec */; };
 		C39FFFEF1E7718000005944F /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39FFFE21E7718000005944F /* DBManager.swift */; };
 		C39FFFF31E7718000005944F /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39FFFE71E7718000005944F /* Observable.swift */; };
 		C39FFFF51E7718000005944F /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = C39FFFEB1E7718000005944F /* sqlite3.h */; };
@@ -18,12 +18,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C39FFFBE1E77177C0005944F /* mqfw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = mqfw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39FFFBE1E77177C0005944F /* momq.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = momq.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39FFFC11E77177C0005944F /* mqfw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mqfw.h; sourceTree = "<group>"; };
 		C39FFFC21E77177C0005944F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C39FFFDE1E7718000005944F /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		C39FFFDF1E7718000005944F /* MessageDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageDispatcher.swift; sourceTree = "<group>"; };
-		C39FFFE01E7718000005944F /* eventbussdk.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = eventbussdk.podspec; sourceTree = "<group>"; };
+		C39FFFE01E7718000005944F /* momq.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = momq.podspec; sourceTree = "<group>"; };
 		C39FFFE21E7718000005944F /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		C39FFFE71E7718000005944F /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		C39FFFEA1E7718000005944F /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		C39FFFB41E77177C0005944F = {
 			isa = PBXGroup;
 			children = (
-				C39FFFC01E77177C0005944F /* mqfw */,
+				C39FFFC01E77177C0005944F /* momq */,
 				C39FFFBF1E77177C0005944F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,22 +52,23 @@
 		C39FFFBF1E77177C0005944F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C39FFFBE1E77177C0005944F /* mqfw.framework */,
+				C39FFFBE1E77177C0005944F /* momq.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C39FFFC01E77177C0005944F /* mqfw */ = {
+		C39FFFC01E77177C0005944F /* momq */ = {
 			isa = PBXGroup;
 			children = (
 				C39FFFE91E7718000005944F /* sqlite3 */,
 				C39FFFE11E7718000005944F /* database */,
 				C39FFFDD1E7718000005944F /* Dispatcher */,
-				C39FFFE01E7718000005944F /* eventbussdk.podspec */,
+				C39FFFE01E7718000005944F /* momq.podspec */,
 				C39FFFE61E7718000005944F /* Observables */,
 				C39FFFC11E77177C0005944F /* mqfw.h */,
 				C39FFFC21E77177C0005944F /* Info.plist */,
 			);
+			name = momq;
 			path = mqfw;
 			sourceTree = "<group>";
 		};
@@ -120,9 +121,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C39FFFBD1E77177C0005944F /* mqfw */ = {
+		C39FFFBD1E77177C0005944F /* momq */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C39FFFC61E77177C0005944F /* Build configuration list for PBXNativeTarget "mqfw" */;
+			buildConfigurationList = C39FFFC61E77177C0005944F /* Build configuration list for PBXNativeTarget "momq" */;
 			buildPhases = (
 				C39FFFB91E77177C0005944F /* Sources */,
 				C39FFFBA1E77177C0005944F /* Frameworks */,
@@ -133,9 +134,9 @@
 			);
 			dependencies = (
 			);
-			name = mqfw;
+			name = momq;
 			productName = mqfw;
-			productReference = C39FFFBE1E77177C0005944F /* mqfw.framework */;
+			productReference = C39FFFBE1E77177C0005944F /* momq.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -153,7 +154,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C39FFFB81E77177C0005944F /* Build configuration list for PBXProject "mqfw" */;
+			buildConfigurationList = C39FFFB81E77177C0005944F /* Build configuration list for PBXProject "momq" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -165,7 +166,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C39FFFBD1E77177C0005944F /* mqfw */,
+				C39FFFBD1E77177C0005944F /* momq */,
 			);
 		};
 /* End PBXProject section */
@@ -176,7 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFAC84411E79E52E0080317E /* module.modulemap in Resources */,
-				C39FFFEE1E7718000005944F /* eventbussdk.podspec in Resources */,
+				C39FFFEE1E7718000005944F /* momq.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +340,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C39FFFB81E77177C0005944F /* Build configuration list for PBXProject "mqfw" */ = {
+		C39FFFB81E77177C0005944F /* Build configuration list for PBXProject "momq" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C39FFFC41E77177C0005944F /* Debug */,
@@ -348,7 +349,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C39FFFC61E77177C0005944F /* Build configuration list for PBXNativeTarget "mqfw" */ = {
+		C39FFFC61E77177C0005944F /* Build configuration list for PBXNativeTarget "momq" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C39FFFC71E77177C0005944F /* Debug */,
