@@ -7,12 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DFFD4DBB1E7B17970028F87B /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFD4DBA1E7B17970028F87B /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFFD4DBE1E7B17A40028F87B /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD4DBD1E7B17A40028F87B /* DBManager.swift */; };
 		DFFD4DC21E7B17B40028F87B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD4DC01E7B17B40028F87B /* Message.swift */; };
 		DFFD4DC31E7B17B40028F87B /* MessageDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD4DC11E7B17B40028F87B /* MessageDispatcher.swift */; };
 		DFFD4DC61E7B17C30028F87B /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD4DC51E7B17C30028F87B /* Observable.swift */; };
-		DFFD4DC71E7B182D0028F87B /* module.modulemap in Resources */ = {isa = PBXBuildFile; fileRef = DFFD4DB91E7B17970028F87B /* module.modulemap */; };
 		DFFD4DC91E7B18380028F87B /* eventbussdk.podspec in Resources */ = {isa = PBXBuildFile; fileRef = DFFD4DC81E7B18380028F87B /* eventbussdk.podspec */; };
 /* End PBXBuildFile section */
 
@@ -116,7 +113,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFFD4DBB1E7B17970028F87B /* sqlite3.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,7 +174,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFFD4DC71E7B182D0028F87B /* module.modulemap in Resources */,
 				DFFD4DC91E7B18380028F87B /* eventbussdk.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,7 +185,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFFD4DBE1E7B17A40028F87B /* DBManager.swift in Sources */,
 				DFFD4DC61E7B17C30028F87B /* Observable.swift in Sources */,
 				DFFD4DC31E7B17B40028F87B /* MessageDispatcher.swift in Sources */,
 				DFFD4DC21E7B17B40028F87B /* Message.swift in Sources */,
