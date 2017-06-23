@@ -103,15 +103,6 @@ open class MessageDispatcher:NSObject {
         NotificationCenter.default.post(name: NSNotification.Name(rawValue: message.routingKey), object: nil, userInfo: messageDic)
     }
     
-    public func routeMessageToServerWithType(message: Message) {
-        if message.params == nil {
-            message.params? = [NSObject : AnyObject]() as AnyObject
-        }
-        let sectoken: String? = UserDefaults.standard.object(forKey: "securitytoken") as? String
-        if sectoken != nil && (sectoken?.lengthOfBytes(using: String.Encoding.utf8))! > 0 {
-            message.params?.set(sectoken, forKey: "securitytoken")
-        }
-    }
     
     public func canSendMessage(message: Message) -> Bool {
         return true
