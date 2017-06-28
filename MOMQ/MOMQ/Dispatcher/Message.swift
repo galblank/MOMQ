@@ -13,10 +13,10 @@ open class Message:NSObject {
     open var routingKey:String = String("")
     open var httpMethod:String = String("")
     open var passthruAPI:String = String("")
-    open var passthruParams:[String:AnyObject] = [String : AnyObject]()
+    open var passthruParams:[String:Any] = [String : Any]()
     open var callBackPoint:String = String("")
     open var authtoken:String = String("")
-    open var params:[String:AnyObject] = [String : AnyObject]()
+    open var params:[String:Any] = [String : Any]()
     open var ttl:Float = 0.1
         {
         didSet{
